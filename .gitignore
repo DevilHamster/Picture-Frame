@@ -1,0 +1,26 @@
+# .NET build output (at any directory depth)
+**/[Bb]in/
+**/[Oo]bj/
+
+# Visual Studio workspace and user-specific settings
+.vs/
+**/.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test output
+**/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Generated NuGet package files
+*.nupkg
+*.snupkg
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
